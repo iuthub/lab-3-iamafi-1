@@ -5,6 +5,10 @@ body {
 .container {
     border: 10px white solid;
     background-color: white;
+    flex-flow: row;
+}
+.main {
+    display: flex;
 }
 .title {
     background-color: #A8F0F0;
@@ -25,4 +29,15 @@ body {
 }
 span {
     border-bottom: 5px #009097 dashed;
+}
+.sidebar {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 4px #009097 solid;
+    background-color: #A8F0F0;
+    height: 150px;
+}
+h1:hover,h2:hover,p:hover {
+    text-decoration: underline yellow;
 }
