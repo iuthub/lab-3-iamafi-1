@@ -1,23 +1,28 @@
 body {
     margin: 0 10%;
-    background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif);
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/11sp/labs/2/images/background.gif);
 }
 .container {
-    border: 5px green solid;
+    border: 10px white solid;
     background-color: white;
 }
 .title {
-    border: 5px red solid;
+    background-color: #A8F0F0;
+    text-align: right;
 }
 .title > h2 {
-    border: 5px orange solid;
+    font-size: 14px;
 }
 .content {
-    border: 5px blue solid;
+    border: 4px #C2E9E9 solid;
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
+    overflow: hidden;
+}
+.content img {
+    float: right;
 }
 span {
-    border: 5px purple solid;
+    border-bottom: 5px #009097 dashed;
 }
